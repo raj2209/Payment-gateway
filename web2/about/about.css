@@ -1,0 +1,135 @@
+*{
+    margin: 0px ;
+    padding: 0px;    
+}
+
+#firstsection{
+    width: 100%;
+    height: 30px;
+    background-color:rgb(105, 108, 110);
+    
+}
+/* .texts{
+    text-align: right;
+    margin-top: 10px;
+    color: royalblue;
+} */
+.logo img{
+    margin-top: 5px;
+    margin-left: 10px;
+    width: 100px;
+    height: 80px;
+    border-radius: 80%;
+    float: left;
+}
+
+
+nav{
+    height: 80px;
+
+}
+.secondsection{
+    width: 80%;
+    height: 10px;
+    margin-top: 40px;
+    margin-right: 20px;
+    background-color:white;
+    float: right;
+    list-style: none;
+    text-align: right; 
+}
+li{
+    display: inline;
+    padding:20px;
+    padding-bottom: 10px;
+    font-family:cursive;
+    font-weight: bolder;
+    color: #242424;
+    font-size: 20px;
+    cursor: pointer; 
+    
+}
+
+li:hover{
+    color:grey;
+    transition: 0.5s;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+ hr {
+    border:none;
+    width: 100%;
+      height: 50px;
+      margin-top: 0;
+      border-bottom: 1px solid #1f1209;
+      box-shadow: 0 20px 20px -20px #333;
+    margin: -50px auto 10px; 
+  } 
+
+
+
+.fullsec{
+    height: 800px;
+    background-color: rgb(216, 210, 210);
+}
+h1{
+    
+    padding-left: 20px;
+}
+p{
+    padding: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+    font-family: cursive;
+}
+#middle_section{
+    height:  180px;
+}
+.footer-section{
+    background-color: rgb(67, 67, 68);
+    padding: 20px;
+    text-align: center;
+}
+/* .container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+} */
+
+
+/* .footer-info-contact span {
+    font-size: 14px;
+    color: #d0ccee;
+    font-weight: 400;
+} */
+.single-footer-widget h3 {
+    font-size: 20px;
+    color: #ffffff;
+    margin: 0 0 30px 0;
+}
+#contact{
+    padding-left: 28px;
+}
+
+.single-footer-widget .footer-info-contact {
+    position: relative;
+    margin-bottom: 16px;
+}
+.single-footer-widget .footer-info-contact h3 {
+    font-size: 14px;
+    color: #ff6015;
+    font-weight: 400;
+    margin: 0 0 10px 0;
+    padding-left: 25px;
+    text-transform: uppercase;
+    font-family: "Muli", sans-serif;
+}
+.single-footer-widget .footer-info-contact span {
+    font-size: 14px;
+    color: #d0ccee;
+    font-weight: 400;
+}
